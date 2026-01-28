@@ -82,3 +82,17 @@ local response = game:HttpGet(url)
 loader(response)()
   end
   })
+
+    AddButton(Tab3o, {
+     Name = "Aim ( Only Mobile )",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DanielHubll/DanielHubll/refs/heads/main/Aimbot%20Mobile"))()
+  end
+  })
+
+    AddButton(Tab3o, {
+     Name = "Super Fix Lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyMythicIOS/SieuFixLag/refs/heads/main/FixLagHuyMythic.lua"))()
+  end
+  })
