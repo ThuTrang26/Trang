@@ -103,14 +103,6 @@ loader(response)()
   end
   })
 
-
-    AddButton(Tab1o, {
-     Name = Bee Dan",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thaoziac2-commits/l9l/refs/heads/main/dark"))()
-  end
-  })
-
     AddButton(Tab3o, {
      Name = Gui Fly V3",
     Callback = function()
