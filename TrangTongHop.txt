@@ -73,7 +73,7 @@ loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/4def2b8e66139
   })
 
     AddButton(Tab2o, {
-     Name = "Andepzai Hub ( No Key )",
+     Name = "Script Aim ( No Key )",
     Callback = function()
 	  local script_mode = "PVP" -- PVP, FARM
 local loader = loadstring
