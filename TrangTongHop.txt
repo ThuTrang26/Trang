@@ -1,0 +1,84 @@
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Trang Top1",
+         Animation = "ThuTrang"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "https://create.roblox.com/store/asset/77890675387830/Meobel",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Bee Swarm"})
+      local Tab2o = MakeTab({Name = "Blox Fruit"})
+      local Tab3o = MakeTab({Name = "Tất Cả Game"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Atlass Bee",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris12089/atlasbss/main/script.lua"))()
+  end
+  })
+
+    AddButton(Tab2o, {
+     Name = "OMG Hub (Key)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/20f318386e3fbf069ee3fa797cfc9f34.lua"))()
+  end
+  })
+
+    AddButton(Tab2o, {
+     Name = "Quantum Hub ( No Key )",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+
+    AddButton(Tab2o, {
+     Name = "Teddy Hub ( No Key )",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/4def2b8e661398d2"))()
+  end
+  })
+
+    AddButton(Tab2o, {
+     Name = "Andepzai Hub ( No Key )",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
+  end
+  })
+
+    AddButton(Tab2o, {
+     Name = "Andepzai Hub ( No Key )",
+    Callback = function()
+	  local script_mode = "PVP" -- PVP, FARM
+local loader = loadstring
+local url = "https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"
+local response = game:HttpGet(url)
+loader(response)()
+  end
+  })
