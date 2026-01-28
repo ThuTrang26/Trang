@@ -100,6 +100,6 @@ loader(response)()
     AddButton(Tab2o, {
      Name = "Trang Hub ( No Key )",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThuTrang26/Blox/refs/heads/main/TrangHack
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThuTrang26/Blox/refs/heads/main/TrangHack"))()
   end
   })
