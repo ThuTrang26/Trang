@@ -105,7 +105,7 @@ loader(response)()
 
 
     AddButton(Tab1o, {
-     Name = Bee Lỏ",
+     Name = Bee Dan",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thaoziac2-commits/l9l/refs/heads/main/dark"))()
   end
