@@ -98,8 +98,23 @@ loader(response)()
   })
 
     AddButton(Tab2o, {
-     Name = "Trang Hub ( No Key )",
+     Name = Gravity Hub ( No Key )",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThuTrang26/Blox/refs/heads/main/TrangHack"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
+  end
+  })
+
+
+    AddButton(Tab1o, {
+     Name = Bee Lỏ",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thaoziac2-commits/l9l/refs/heads/main/dark"))()
+  end
+  })
+
+    AddButton(Tab3o, {
+     Name = Gui Fly V3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   end
   })
