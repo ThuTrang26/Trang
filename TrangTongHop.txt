@@ -96,3 +96,10 @@ loader(response)()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HuyMythicIOS/SieuFixLag/refs/heads/main/FixLagHuyMythic.lua"))()
   end
   })
+
+    AddButton(Tab2o, {
+     Name = "Trang Hub ( No Key )",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThuTrang26/Blox/refs/heads/main/TrangHack
+  end
+  })
